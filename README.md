@@ -72,7 +72,7 @@ The playbook implements the following tasks:
 
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
 
-![TODO: Update the path with the name of your screenshot of docker ps output](Images/docker_ps_output.png)
+!(Elk-Stack-Project/DockerPSImage.jpg)
 
 ### Target Machines & Beats
 This ELK server is configured to monitor the following machines:
@@ -93,7 +93,6 @@ SSH into the control node and follow the steps below:
 - Update the config file to include the private IP address of the ELK Server.
 - Run the playbook, and navigate to ELK-Serv to check that the installation worked as expected.
 
-_TODO: Answer the following questions to fill in the blanks:_
 - _Which file is the playbook? Where do you copy it? The filebeat_playbook.yml file is the playbook and copied it to the ansible hosts directory
 - _Which file do you update to make Ansible run the playbook on a specific machine? How do I specify which machine to install the ELK server on versus which to install Filebeat on?
 - You would have to update the filebeat.yml file and designate the appropriate IP address of the machines you want to instal the ELK server and Filebeat on in the .yml file.
